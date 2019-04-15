@@ -1,0 +1,10 @@
+name: StaffMenu
+main: Batuhan337tr\StaffMenu\Main
+version: 0.0.1
+api: 3.7.0
+author: Batuhan337tr
+
+commands:
+   staffmenu:
+    description: "StaffMenu Relase 1.0"
+    permission: staffmenu.perm
