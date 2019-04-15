@@ -24,7 +24,7 @@ class Main extends PluginBase{
 		$player = $sender->getPlayer();
 		switch($command->getName()){
 			case "staffmenu":
-				if($sender->hasPermission("ban.ui")){
+				if($sender->hasPermission("staffmenu.perm")){
 				$this->langMenu($player);	
 			}
 			else{
